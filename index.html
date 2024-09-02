@@ -1,38 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head> 
-    <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Loja de Calçados</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="navbar">
-       <img class="logo" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/shoes-logo-design-template-cc4d68370ae503f5b1f36e7547cb4c29.jpg?ts=1687572394" alt="" />
-       <div class="links">
-           <a href="">Sobre Nós</a>
-           <a href="">Produtos</a>
-           <a href="">Contato</a>
-        </div>
-     </div>
+    <header class="navbar">
+        <img class="logo" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/shoes-logo-design-template-cc4d68370ae503f5b1f36e7547cb4c29.jpg?ts=1687572394" alt="Logo da loja de calçados" />
+        <nav class="nav-links">
+            <a href="#about">Sobre Nós</a>
+            <a href="#products">Produtos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
        
-<header>
-    <div class="conteudo-header">
-        <h1>Loja de calçados</h1>
-        <h3>O objetivo da loja é oferecer calçados de uma boa qualidade, moderno, proporcionar conforto e agilidade para compra</h3>
-        <button>Iniciar</button>
-    </div>
-    <img class="imagem" src="https://i.pinimg.com/736x/da/00/f8/da00f85e9814ac8f62236793b3f10b38.jpg" alt="">
-</header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Loja de Calçados</h1>
+                <p>Oferecemos calçados de alta qualidade, modernos e confortáveis, com agilidade na compra.</p>
+                <a href="#products" class="cta-button">Veja Nossos Produtos</a>
+            </div>
+            <img class="hero-image" src="https://i.pinimg.com/736x/da/00/f8/da00f85e9814ac8f62236793b3f10b38.jpg" alt="Calçados em destaque">
+        </section>
 
-<div>
-    <h4>Tênis de um novo lançamento da nike</h4>
-    <div>
-        <img class="imagem2" src="https://imgnike-a.akamaihd.net/768x768/0272847TA8.jpg" alt="">
-        <h3>Tênis Nike Revolution 7 Feminino</h3>
-        <p>275,49</p>
-    </div>
-    
-</div>
+        <section id="products" class="product-section">
+            <h2>Novidades em Calçados</h2>
+            <div class="product">
+                <img class="product-image" src="https://imgnike-a.akamaihd.net/768x768/0272847TA8.jpg" alt="Tênis Nike Revolution 7 Feminino">
+                <div class="product-details">
+                    <h3>Tênis Nike Revolution 7 Feminino</h3>
+                    <p class="price">R$275,49</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>Sobre Nós</h2>
+            <p>Conheça mais sobre nossa missão e valores, e descubra como buscamos proporcionar a melhor experiência em calçados para nossos clientes.</p>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contato</h2>
+            <p>Para dúvidas, sugestões ou mais informações, entre em contato conosco:</p>
+            <address>
+                <p>Email: <a href="mailto:contato@lojadocalcado.com.br">contato@lojadocalcado.com.br</a></p>
+                <p>Telefone: (11) 1234-5678</p>
+            </address>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Loja de Calçados. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
